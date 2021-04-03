@@ -10846,7 +10846,7 @@ footer p {
 
 @media (max-width: 991.98px) {
   .navbar-store {
-    background-color: #fff im !important;
+    background-color: #fff !important;
   }
 }
 
@@ -10959,5 +10959,26 @@ footer p {
   font-weight: 500;
   font-size: 16px;
   color: #ff7158;
+}
+
+.store-breadcrumbs .breadcrumb {
+  background: transparent;
+  padding-left: 270px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.store-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.store-breadcrumbs .breadcrumb-item.active {
+  font-weight: 300;
+  color: #0c0d36;
+}
+
+.store-breadcrumbs a {
+  color: #979797;
 }
 /*# sourceMappingURL=main.css.map */
